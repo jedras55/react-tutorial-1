@@ -1,0 +1,41 @@
+{
+  "extends": "eslint:recommended",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "commonjs": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-cond-assign": ["error", "always"],
+    "no-console": "off",
+    "spaced-comment": ["error", "always"],
+    "arrow-spacing": ["error"],
+    "space-in-parens": ["error"],
+    "space-before-blocks": ["error"],
+    "space-before-function-paren": ["error", "never"],
+    "semi-spacing": ["error"],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+    "computed-property-spacing": ["error"],
+    "comma-spacing": ["error"],
+    "keyword-spacing": ["error"],
+    "space-infix-ops": ["error"],
+    "no-const-assign": ["error"],
+    "constructor-super": ["error"],
+    "no-duplicate-imports": ["error"],
+    "padded-blocks": ["error", "never"],
+    "no-unused-vars": ["error"],
+    "no-case-declarations": "off"
+  }
+}
